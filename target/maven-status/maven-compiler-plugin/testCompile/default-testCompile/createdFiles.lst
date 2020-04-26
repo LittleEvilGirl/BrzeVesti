@@ -1,0 +1,8 @@
+dashboard\DashboardTest.class
+regions\RegionsTest.class
+sources\SourcesTest.class
+baseTest\BaseTest.class
+signature\SignatureTest.class
+categories\CategoriesTest.class
+login\LoginTest.class
+portal\PortalTest.class

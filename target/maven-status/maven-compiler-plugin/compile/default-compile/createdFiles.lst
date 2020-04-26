@@ -1,0 +1,11 @@
+pages\SourcesPage.class
+pages\RegionsPage.class
+pages\LoginPage.class
+pages\PortalPage.class
+pages\DashboardPage.class
+pages\BrzeVestiPage.class
+pages\SignaturesPage.class
+Framework\Helper.class
+pages\AdminPage.class
+pages\CategoriesPage.class
+Framework\Configuration.class

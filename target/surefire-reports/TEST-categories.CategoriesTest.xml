@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="27" failures="0" name="categories.CategoriesTest" time="207.249" errors="0" skipped="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="user.country.format" value="RS"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Zeljko\Desktop\Workspace\DomaciBrzeVestiUI"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="categories.CategoriesTest,dashboard.DashboardTest,login.LoginTest,portal.PortalTest,regions.RegionsTest,signature.SignatureTest,sources.SourcesTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Zeljko\Desktop\Workspace\DomaciBrzeVestiUI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.script.format" value="Latn"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Zeljko\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Gemalto\Classic Client\BIN;C:\Program Files\Gemalto\Classic Client\BIN;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files (x86)\Java\jre1.8.0_231\bin;C:\Program Files\Git\cmd;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Zeljko"/>
+    <property name="user.timezone" value="Europe/Budapest"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="Zeljko"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=categories.CategoriesTest,dashboard.DashboardTest,login.LoginTest,portal.PortalTest,regions.RegionsTest,signature.SignatureTest,sources.SourcesTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.1\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="sr"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="categories.CategoriesTest" name="testSourcesLink" time="10.128"/>
+  <testcase classname="categories.CategoriesTest" name="testLogoutLink" time="7.394"/>
+  <testcase classname="categories.CategoriesTest" name="testAddNewCaregory" time="7.35"/>
+  <testcase classname="categories.CategoriesTest" name="testReorderFirstCategory" time="9.264"/>
+  <testcase classname="categories.CategoriesTest" name="testReorderRandomCategory" time="9.19"/>
+  <testcase classname="categories.CategoriesTest" name="testEditFirstCategory" time="7.326"/>
+  <testcase classname="categories.CategoriesTest" name="testEditBTCFirstCategory" time="7.299"/>
+  <testcase classname="categories.CategoriesTest" name="testEditRandomCategory" time="7.217"/>
+  <testcase classname="categories.CategoriesTest" name="testEditBTCRandomCategory" time="7.481"/>
+  <testcase classname="categories.CategoriesTest" name="testEnableFirstCategory" time="8.374">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 30161
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587850761.716][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:39:22 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587850764.778][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850764.880][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850764.982][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850767.530][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="categories.CategoriesTest" name="testCloseEnableFirstCategory" time="8.647">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 25470
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587850770.084][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:39:31 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587850773.774][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850773.877][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850773.994][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850776.458][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="categories.CategoriesTest" name="testEnableRandomCategory" time="6.653">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 10781
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587850778.651][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:39:39 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587850780.350][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850780.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850780.636][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850783.006][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="categories.CategoriesTest" name="testCloseEnableRandomCategory" time="6.465">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 38812
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587850785.403][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:39:46 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587850786.843][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850786.944][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850787.045][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850789.527][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="categories.CategoriesTest" name="testDisableFirstCategory" time="7.552"/>
+  <testcase classname="categories.CategoriesTest" name="testCloseDisableFirstCategory" time="6.528">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 10600
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587850799.288][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:40:00 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587850800.688][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850800.789][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850800.890][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850800.995][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850803.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850803.487][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850803.589][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="categories.CategoriesTest" name="testDisableRandomCategory" time="6.178">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 21471
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587850805.814][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:40:06 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587850807.210][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850807.313][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850807.415][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850807.545][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850809.854][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="categories.CategoriesTest" name="testCloseDisableRandomCategory" time="6.391">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 6705
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587850812.171][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:40:13 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587850813.608][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850813.709][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850813.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587850816.213][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="categories.CategoriesTest" name="testDeleteFirstCategory" time="9.404"/>
+  <testcase classname="categories.CategoriesTest" name="testCloseDeleteFirstCategory" time="7.129"/>
+  <testcase classname="categories.CategoriesTest" name="testDeleteRandomCategory" time="9.704"/>
+  <testcase classname="categories.CategoriesTest" name="testCloseDeleteRandomCategory1" time="9.214"/>
+  <testcase classname="categories.CategoriesTest" name="testBrzeVestiLink" time="7.086"/>
+  <testcase classname="categories.CategoriesTest" name="testDashboardLink" time="6.253"/>
+  <testcase classname="categories.CategoriesTest" name="testSignaturesLink" time="7.064"/>
+  <testcase classname="categories.CategoriesTest" name="testCategoriesLink" time="6.68"/>
+  <testcase classname="categories.CategoriesTest" name="testRegionsLink" time="8.643"/>
+  <testcase classname="categories.CategoriesTest" name="testPortalsLink" time="6.635"/>
+</testsuite>

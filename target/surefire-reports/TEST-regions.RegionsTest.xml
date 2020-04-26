@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="27" failures="0" name="regions.RegionsTest" time="207.74" errors="0" skipped="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="user.country.format" value="RS"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Zeljko\Desktop\Workspace\DomaciBrzeVestiUI"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="categories.CategoriesTest,dashboard.DashboardTest,login.LoginTest,portal.PortalTest,regions.RegionsTest,signature.SignatureTest,sources.SourcesTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Zeljko\Desktop\Workspace\DomaciBrzeVestiUI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.script.format" value="Latn"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Zeljko\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Gemalto\Classic Client\BIN;C:\Program Files\Gemalto\Classic Client\BIN;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files (x86)\Java\jre1.8.0_231\bin;C:\Program Files\Git\cmd;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Zeljko"/>
+    <property name="user.timezone" value="Europe/Budapest"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="Zeljko"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=categories.CategoriesTest,dashboard.DashboardTest,login.LoginTest,portal.PortalTest,regions.RegionsTest,signature.SignatureTest,sources.SourcesTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.1\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="sr"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-11.1\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="regions.RegionsTest" name="testSourcesLink" time="6.938"/>
+  <testcase classname="regions.RegionsTest" name="testLogoutLink" time="7.507"/>
+  <testcase classname="regions.RegionsTest" name="testBrzeVestiLink" time="10.977"/>
+  <testcase classname="regions.RegionsTest" name="testDashboardLink" time="6.782"/>
+  <testcase classname="regions.RegionsTest" name="testSignaturesLink" time="6.82"/>
+  <testcase classname="regions.RegionsTest" name="testCategoriesLink" time="6.613"/>
+  <testcase classname="regions.RegionsTest" name="testRegionsLink" time="6.854"/>
+  <testcase classname="regions.RegionsTest" name="testPortalsLink" time="8.796"/>
+  <testcase classname="regions.RegionsTest" name="testEditBTRRandomRegion" time="7.397"/>
+  <testcase classname="regions.RegionsTest" name="testReorderFirstRegion" time="9.369"/>
+  <testcase classname="regions.RegionsTest" name="testReorderRandomRegion" time="9.322"/>
+  <testcase classname="regions.RegionsTest" name="testEditFirstRegion" time="9.377"/>
+  <testcase classname="regions.RegionsTest" name="testEditBTRFirstRegion" time="9.037"/>
+  <testcase classname="regions.RegionsTest" name="testEditRandomRegion" time="7.353"/>
+  <testcase classname="regions.RegionsTest" name="testEnableFirstRegion" time="7.486"/>
+  <testcase classname="regions.RegionsTest" name="testCloseEnableFirstRegion" time="6.098">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 14523
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587851323.913][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:48:44 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587851325.320][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851325.511][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="regions.RegionsTest" name="testEnableRandomRegion" time="8.136">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 1187
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587851329.945][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:48:50 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587851333.120][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851333.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851333.343][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851335.866][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="regions.RegionsTest" name="testCloseEnableRandomRegion" time="6.541">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 15680
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587851338.054][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:48:59 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587851339.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851339.590][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851339.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851339.797][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851339.903][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851342.311][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="regions.RegionsTest" name="testDisableFirstRegion" time="7.574"/>
+  <testcase classname="regions.RegionsTest" name="testCloseDisableFirstRegion" time="6.29">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 41623
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587851352.186][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:49:13 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587851353.592][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851353.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851353.798][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851353.936][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851356.290][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="regions.RegionsTest" name="testDisableRandomRegion" time="6.312">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 25810
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587851358.488][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:49:19 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587851359.863][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851359.966][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851360.073][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851360.198][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="regions.RegionsTest" name="testCloseDisableRandomRegion" time="8.258">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 12318
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587851364.916][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:49:25 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587851368.054][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851368.156][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851368.276][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851370.876][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="regions.RegionsTest" name="testDeleteFirstRegion" time="9.576"/>
+  <testcase classname="regions.RegionsTest" name="testCloseDeleteFirstRegion" time="7.705"/>
+  <testcase classname="regions.RegionsTest" name="testDeleteRandomRegion" time="7.32"/>
+  <testcase classname="regions.RegionsTest" name="testCloseDeleteRandomRegion" time="6.301">
+    <skipped/>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 18223
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1587851397.811][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+apr 25, 2020 11:49:58 PO PODNE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587851399.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851399.308][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851399.431][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587851399.532][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="regions.RegionsTest" name="testAddNewRegion" time="7.001"/>
+</testsuite>
